@@ -1,4 +1,4 @@
-# JaidynReiman's FEGBA Assets Database
+# JaidynReiman's Fire Emblem GBA & Assets Database
 
 The purpose of this repository is to share assets related to FEGBA and Lex Talionis that don't otherwise fit elsewhere, as well as to compile any updates/fixes I did myself. I will try and add these to the FE Graphics Repository where possible, but not everything fits there. However, even for things I do add there, I'll keep them here as well to display a distinction of what assets I specifically worked on.
 
@@ -23,6 +23,71 @@ If I make any fully custom/original assets, they will be F2U/F2E but also releas
 
 
 ## Assets
+
+### Icons
+
+Due to the way Lex Talionis handles icons its not really efficient to load in icons one at a time, its really designed to work with sheets. As such, I went ahead and compiled a bunch of sheets from the FE Repo.
+
+In all cases I tried my best to ensure only one artist is on each sheet, with a couple of exceptions. The only notable exception is the Weapon Rank sheet, as I did this early on and thought it'd make more sense to keep these together.
+
+I intend on adding more and also adding new icons to these sheets over time.
+
+#### Custom Icon Sheets
+
+These are custom icon sheets I compiled for containing all icons one artist made. In some cases, I broke them down based on icon type.
+
+- 2WB
+    - All Monster Icons
+    - All Tome Icons
+- Alice - All Icons
+- Artist Unknown - All Tomes
+- AtelierLabs - All Icons
+- Batima
+    - All Monster Icons
+    - All Tomes
+- Beansy
+    - All Monster Icons
+    - All Tomes
+- Ereshkigal
+    - All Tomes
+    - All Weapons
+        - This one needs more cleanup.
+- Kyrads - All Tomes
+- Lisandra Brave - All Tomes
+- Peerless - All Icons
+- Topazlight - All Icons
+- VelvetKistune - All Icons
+- Zarg
+    - All Monster Icons
+    - All Tomes
+    - Recommended to use the Edited sheet for Zarg instead.
+- Alice, RLC, VelvetKitsune, JaidynReiman, Stephano
+    - Expanded Weapon Icons
+    - I originally made this sheet with all icon types, but I feel like I want to get rid of this one later. I'd much rather keep these kinds of sheets separate by artist if at all possible. As I expand these sheets more I will likely get rid of this sheet and replace it with only icons I created myself.
+
+#### Editing / Cleaned Icon Sheets
+
+These are pre-existing Icon Sheets in the FE Repo that had to be cleaned up in order to use in LT. These sheets are not designed to have exact pixel squares, and as such, there's often big gaps and borders around certain sections. I simply edited these assets to clean them up and make them usable for LT.
+
+- EldritchA, Indogutsu Tenbuki
+    - Tactics Ogre All Icons
+- Ereshkigal
+    - All Icons 1.3
+    - I was going to use this one, then I realized the tomes here are significantly lacking compared to the full sheet I made.
+- ThunderMage
+    - Vanilla Tome Edits + Customs
+    - I made a few small updates here. I noticed that the tomes with borders were a bit inconsistent so I ensured every tome cover had both red and blue borders.
+- Zane
+    - All Icons
+    - This combines all of Zane's sheets and makes sure any stray icons are also present.
+- Zarg
+    - All Icons
+    - This combines all of Zarg's sheets and stray individual icons.
+- ZessDynamite, Rainlsash, LordGlenn, Suneohair
+    - Complete Skill Icon Sheet
+    - This sheet was shared in the LT Discord. Its more complete than the one in the FE-Repo.
+    - I'm only sharing it here because I made a few small additions. I added +7 and +10 icons (and -7 and -10) to all main statistic icons towards the top.
+
 
 ### Battle Animations
 
@@ -84,7 +149,60 @@ Super minor fixes for battle animations, mostlikely to fix it for Lex Talionis.
 
 ### Map Sprites
 
+I'll be including a lot of "fix for LT" assets here. These are simply redone for LT to support the ability to import them into Lex Talionis.
 
+Assets from the FE-Repo can be imported into FEGBA fine but fail importing into LT. The most common reason is due to height differences.
+
+I may make fixes for palettes where needed as well, so when imported in LT it will properly generate gray variants.
+
+
+#### Legacy Map Sprites
+
+These map sprites were made by me when I was looking into potentially doing Fire Emblem XP over a decade ago. That project was abandoned, but I still had these assets lying around.
+
+I have only kept the ones with notable changes. I haven't yet adapted these for FEGBA or Lex Talionis, but eventually I would like to.
+
+- Female Berserker
+    - Female Berserker already exists now, but this was a simple edit to add a chest band for obvious reasons.
+- Dark Mage w/Bangs
+    - For an OC named Trent. Some exist like this, but this exact design does not.
+- Hatless Mage?
+    - I can't remember the exact purpose, but I assume it was removing the hat. Probably not that special given this already exists.
+- Demon Swordmaster
+    - I was working on fully repaletting this one but never finished. The sprite has horns in addition to a (partially converted) black kimono.
+- Headbandless Female Thief
+    - I actually really like this one, it looks pretty unique.
+    - For an OC called Melody. While she won't be using this sprite I still like the design. Its not like other long-haired thief sprites such as Legault.
+- Female Assassin
+    - Honestly doesn't look very good, probably not worth porting over.
+- Pegasus Staff
+    - I suspect this does exist, but I'll compare it anyway and see if its worth porting.
+- Peg Leg Pirate
+    - This character was created as a joke mostly. I do like the Peg Leg though and may port it over.
+- Sword Cavalier
+    - Is a lie, because I don't see a sword there. I'll compare it to other sprites but I doubt this is anything interesting.
+- Hat Archer
+    - Archer with a hat. Based on a rough concept I did a while back.
+
+
+#### Lords - Vanilla and Custom
+
+- Fix for LT
+    - Blade Lord (F) Exalt Magic
+    - Blade Lord (F) Sword
+- Elf Eirika by JaidynReiman
+    - This was originally made in my Legacy assets.
+    - This is designed for Amaya.
+- Mage Lord Elf by JaidynReiman
+    - Mage Lord by TyTheBub
+    - This is a super minor edit to add elf-style ears. I'll probably do a more advanced edit later.
+
+#### Mounted - Dismounted, Monsters, Misc
+
+- Wolf Knight by JaidynReiman
+    - Spliced From Wolf and Nomad
+    - Wolf by VelvetKitsune
+    - Nomad by Leif
 
 
 ### Tilesets
