@@ -205,20 +205,173 @@ I have only kept the ones with notable changes. I haven't yet adapted these for 
     - Nomad by Leif
 
 
-### Tilesets
+### Mapping
 
-I don't really do Tilesets, but I have included some fixes in here to make tilesets easier to import into Lex Talionis. Most tilesets in the FE Graphics Repository only include the FEGBA palettes, but they don't have the tilesheet with the repals in place. I have made many of these myself.
+I'll include all my maps and autotiles I have created here.
+
+I don't really do Tilesets, but I have included some fixes in here to make tilesets easier to import into Lex Talionis. Most tilesets in the FE Graphics Repository only include the FEGBA palettes, but they don't have the tilesheet with the repals in place. I have made many of these myself with help from BWDYeti's FBAFE Tileset Viewer.
 
 In addition, any "remaster" or "remake" tilesets often change the water. As such, new autotiles need to be made. I have made some Autotiles here and plan to make more in the future.
 
+
+#### Maps
+
+I have included all the maps I have made so far. Some of these are WIP's.
+
+- Roam: Oestridel City
+    - Tileset: Cynon's Metropolis 0.80
+        - Made by: {Cynon}
+        - Palette: Default
+- Roam: Oestridel Cathedral
+    - Tileset: FE8 Castle + Customs - Improved Tileset
+        - Made by: {N426}
+        - Palette: Purple Carpet
+    - Tileset: Cynon's Metropolis 0.80
+        - Made by: {Cynon}
+        - Palette: Default
+        - NOTE: Only the exterior portion of the second version of this map has it. This wouldn't work in FE Builder, but it does work in LT Maker.
+    - This is inside the large cathedral in the town. The idea is that region events at the edge of the cathedral let you walk into it.
+    - Because there's no "pews" or "chairs" in castle maps, I settled on the idea of having bookshelves and water.
+    - The rough idea here is that the sanctuary is on the second floor and won't be accessible.
+- Prologue (Ch0): Lady of Oestridel
+    - Tileset: Cynon's Metropolis 0.80
+        - Made by: {Cynon}
+        - Palette: Default
+    - This is merely a subset of Oestridel City. Also, this is an early version of it; the final version is a much smaller square.
+- Chapter 5
+    - Tileset: - FE8 - Fields - Remaster - Super Fields
+        - Made by: {WAve, RandomWizard, Beast}
+        - Palette: Aquamarine Roofs + Gray Mountains
+    - May change the palette later, but this is what I decided for now.
+    - This is the forest just outside of the Chapter 6 map. In my original plan this was going to be after that map instead of before.
+- Chapter 6
+    - Village - Remake + Coconut Tree + Ship Extras - Tileset
+        - Made by: {flasuban, N426, ZoramineFae, Venno}
+        - Palette: Default
+    - Originally was the Prologue, but I decided to set the Prologue much further back in time.
+    - As such, this will not encompass the whole village, but it also means the village needs to be redesigned to work better as a proper battle map.
+    - Originally I used Village Remake with Ship Extras because I wanted the ship here, but I don't need the ship in this particular map. So its possible I may swap it for a different tileset later, but I haven't decided yet.
+- Chapter 8
+    - Tileset: - FE8 - Fields - Remaster - Super Fields
+        - Made by: {WAve, RandomWizard, Beast}
+        - Palette: Dark Water, Pink Mountains
+        - NOTE: I'm heavily considering recreating this using a mountain tileset or perhaps Frontier Remake. I think it might look better.
+    - This map was originally the next map after Chapter 6, but now there's an extra gap map.
+    - The map is in the mountains northwest of the Chapter 6 map. The southeast corner is the starting position.
+
+
 #### Palettes
 
-- Cynon's Metropolis by Cynon
-    - I quickly dropped in a Purple palette for 0.83 to coincide with the 0.90 Purple palette. This palette already existed but there's no Preview tileset for 0.83 containing Purple in the main Repo.
+These palettes were made by the original artists for FEGBA, the only thing I have done here is apply the palette to the tileset so it can be more easily used in Lex Talionis Engine.
+
+Credits to BWDYeti for GBAFE Tileset Viewer which helped me to create these finished tilesets.
+
+##### How I created these:
+1. I took the palette and imported both it and the map config into FE Builder.
+2. I saved the ROM as a new ROM, something like TEST CHAMBER or something.
+3. I opened up BWDYeti's GBAFE Tileset Viewer and took a look at the final full compiled tileset.
+4. I used "Print Screen" to copy the tileset into Aseprite and ensured the tileset meshed perfectly to the edge of standard tilesets.
+
+##### Why did I create these?
+
+Simply enough... FEGBA style "palettes" cannot be easily imported into Lex Talionis. I wanted to have the full tileset, but in each different palette so they can be used in Lex Talionis.
+
+Most of the tilesets in the FE-Repo only contain one preview. If they contain a second preview, though, its often a map design rather than the tileset, making it not easily usable in LT. We need a full tileset with all tiles in each palette to be able to use them in LT.
+
+
+##### List of Tileset Palettes
+- Towns / Villages / Cities
+    - Cynon's Metropolis
+        - Made By: {Cynon}
+        - I dropped in a Purple palette for 0.83 to coincide with the 0.94 Purple palette.
+        - The other 3 tilesets were made by Cynon directly, I only included them here for completion.
+    - Village - Remake + Coconut Tree + Ship Extras - Tileset
+        - Made by: {flasuban, N426, ZoramineFae, Venno}
+        - I created tileset versions of the remaining palettes:
+            - Default Model 2, Night, Sunset, Snow
+    - Village - Remaster + Well + Flowers + Alternative Houses - Tileset
+        - Made by: {WAve}
+        - I created the full tileset for "Night".
+        - Additional Palettes:
+            - Based on Village - Remaster - Coconut Tree + Mountains
+            - Made by: {N426, ZoramineFae, Venno}
+            - I created the full tilesets for the following palettes:
+                - Snow, Snow Sunset, Sunset Model 1, Sunset Model 2, Green Knight, Purple White, Flashback
+- Fields
+    - FE6 - Fields - SnowyRemake - Tileset
+        - Made by: {N426}
+        - I created the full tileset for Sunset.
+    - FE8 - Fields - Remaster - Super Fields - Tileset
+        - Made by: {WAve, RandomWizard, Beast}
+        - Aquamarine Roofs + Gray Mountains by: {Dark}, inspired by {LeifOClaude}
+        - Autumn, Marsh, Verdant by: {Zarg}
+        - I created the full tilesets for:
+            - Aquamarine Roofs + Gray Mountains
+            - FE7 Darker Water, FE7 Darker Green
+            - Autumn, Marsh, Night, Purple, Yellow
+        - Additional Palettes:
+            - Based on FE7 Fields + Customs
+            - Snow by: N426
+            - Bright & Dark Field by: {MaxTheMagelord, WAve, RandomWizard, Beast}
+            - Hallow by: {MaxTheMagelord}
+            - Bright Green by: {Unknown}
+                - NOTE: I cannot remember where this came from, nor can I find it in the Repo anymore. Was it removed? Dark Field appears to be the closest palette, so maybe it was renamed.
+            - I created the full tilesets for the following palettes:
+                - Bright Green, Hallow, Bright Field, Snow
+- Caves
+    - Lava Cave - Remaster - Tileset
+        - Made by: {HyperGammaSpaces}
+        -  I created the full tileset for FE7 Style
 
 
 #### Autotiles
 
-- Cynon's Metropolis by Cynon
-- Cynon's Metropolis Autotiles by JaidynReiman
-    - After seeing Cynon's Metropolis I thought it would be perfect for a big city. I felt that the village tilesets just didn't work quite as well. As such, I reached out to Cynon to confirm if I could make autotiles for it and Cynon was happy to oblige, so I made a full sheet of Autotiles for 0.83. I haven't yet finished Autotiles on 0.90.
+These autotiles were created by me. I created them from the original tilesets in the FE-Repo using the Map Animations that exist there, as such, I will be crediting the original artists for these map animations as well as the base tilesets.
+
+NOTICE: I'll be dropping these autotiles soon. They are mostly complete, but I'm finishing a few things up in them.
+
+- Additional Water Tiles (+ Remastered)
+    - Original Tileset by: {Cynon}
+    - Original Map Animations by: {Cynon}
+    - Some of these water tiles were part of Cynon's Metropolis, but they seem to work in a variety of different tilesets.
+- Cynon's Metropolis
+    - Original Tileset by: {Cynon}
+    - Original Map Animations by: {Cynon}
+    - I created autotiles for 0.8, 0.83, and 0.94.
+    - The autotiles for the darker water do not work correctly, they are recolored blue instead. Perhaps in a future version these can be fixed. If you only use one color water (light or dark) in a single tilemap these should work.
+    - The autotiles for the lanterns do not work correctly. Autotiles do not seem to work well with palette shift animations, as instead of working they simply fill out all animations with the same color.
+- FE6 Fields - SnowyRemake
+    - Original Tileset By: {N426}
+    - Original Map Animations by: {N426}
+    - Silvio from the LT Discord tried to get these working but was unable to figure it out. I went ahead and made them myself instead. Some of the tiles do not match exactly with the original sheet, I suspect this worked fine in FE Builder because the animation is directly chosen for each specific tile, but in LT they need to be replaced with the base tile in the tileset instead.
+
+
+### Portraits
+
+All Portraits have been made by me without splices, as such, they're not necessarily the best.
+
+My initial portraits started from AI generated portraits, then I retraced and reshaded them by hand to try and replicate the original design. From there, though, I started working on adding my own new additions to greatly expand and alter them.
+
+All of my characters are of high fantasy races, with very few being insdistinguishable from real life humans or classical elves. As such, I have included generic elf or human variants of all my characters so people who want to use these portraits in standard games can do so, though I can't say I'm exactly happy with the ones I have so far.
+
+The following characters I have portraits for so far:
+
+- Princess Shayala Massione
+    - This one was a complete accident. I was using Klokgen to come up with designs and I came up with a really nice design that suited her well.
+    - When I traced the portrait, I tried to encompass her entire upper torso. Upon sharing it in the FE Graphics Repo this "style" was really well liked there. I have decided I want to use this "Bust" design for all my future character portraits.
+    - Shayala is a Lykon, which are wolf-like elves. They have wolf-like tails and ears on the sides of their heads and can run on all fours.
+    - Originally Shayala was not intended to be a Lykon, but merely descent from them. However, upon delving into the lore I realized this just didn't make any sense, so I fixed that issue and made her a Lykon as well as most of the population of her Kingdom.
+    - The early designs didn't have the best shading on the eyes. I tried to clean them up and make them look like other portraits. The latest I heard was that they looked too "chibi" and "anime". I kinda see the point, as she's supposed to be a mature Lykon woman so the eyes should look narrower, but its a hard design to nail down.
+- Svetlanya Renald
+    - Her name was originally Miriam. After seeing just HOW OFTEN the name Miriam is used in everything, I finally reluctantly decided to change her name. Not only have I seen Miriam in another FE romhack, but I also saw it in Unicorn Overlord, which is what really killed the idea of using the name.
+    - Svetlana means "Light" which is why I went with that name. I thought it was kinda cute mixing Svetlana with "anya".
+    - Svetlanya is the main protagonist. Originally she was a supporting character to Relm, but when coming up with the idea for an FE fangame, I opted to instead make it a prequel with Svetlanya being the protagonist.
+    - Svetlanya is a "Queiza", that being my take on Merfolk to a limited extent. Its more like a "water elf" where they have legs and fins, as well as a fin tail. I tried to give her ears somewhat of a finlike appearance in her earlier designs, but in her latest design I changed it up a bit. There's a reason for this, but I'll get to that idea later.
+    - Unfortunately I can't say she resembles the concept very well. I'm holding off on designing her until I can have an artist help me fully finish her design.
+    - I started working on a Bust-style design for her, but I haven't finished it yet.
+- Amaya Lyudam
+    - Amaya is a former noblewoman and Svetlanya's new retainer.
+    - I went through several variations of her, with some being Amaya already having known Svetlanya for some time. In the final draft, however, Amaya is only just being assigned to Svetlanya.
+    - She is related to the Queiza, but is "degraded", which means she's lost her Queizan attributes. She cannot swim nor breath underwater, but she's still expected to follow Svetlanya wherever she goes...
+    - Amaya is one of my oldest characters. Her name was originally just Maya, but after seeing just how many characters I had starting with the letter M I renamed her to "Amaya."
+    - I am completely unhappy with the designs here. I already have a final design for her anyway, so I'm just going to go back to that design when I work on a bust style portrait for her. She may be the second one I complete, because she and Shayala have finalized designs while Svetlanya does not.
