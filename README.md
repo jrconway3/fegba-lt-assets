@@ -328,12 +328,10 @@ Most of the tilesets in the FE-Repo only contain one preview. If they contain a 
 
 These autotiles were created by me. I created them from the original tilesets in the FE-Repo using the Map Animations that exist there, as such, I will be crediting the original artists for these map animations as well as the base tilesets.
 
-NOTICE: I'll be dropping these autotiles soon. They are mostly complete, but I'm finishing a few things up in them.
-
-- Additional Water Tiles (+ Remastered)
+- Additional Water Tiles
     - Original Tileset by: {Cynon}
     - Original Map Animations by: {Cynon}
-    - Some of these water tiles were part of Cynon's Metropolis, but they seem to work in a variety of different tilesets.
+    - These water tiles animations were part of Cynon's Metropolis, but they seem to work in a variety of different tilesets.
 - Cynon's Metropolis
     - Original Tileset by: {Cynon}
     - Original Map Animations by: {Cynon}
