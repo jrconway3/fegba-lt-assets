@@ -151,7 +151,7 @@ Super minor fixes for battle animations, mostlikely to fix it for Lex Talionis.
 
 I'll be including a lot of "fix for LT" assets here. These are simply redone for LT to support the ability to import them into Lex Talionis.
 
-Assets from the FE-Repo can be imported into FEGBA fine but fail importing into LT. The most common reason is due to height differences.
+Assets from the FE-Repo can be imported into FEGBA fine but fail importing into LT. The most common reason is due to height differences. This particular issue has been fixed, as now 488 px tall walk sprites can be imported. However, I will still include other minor fixes I have made in this repository.
 
 I may make fixes for palettes where needed as well, so when imported in LT it will properly generate gray variants.
 
@@ -187,9 +187,6 @@ I have only kept the ones with notable changes. I haven't yet adapted these for 
 
 #### Lords - Vanilla and Custom
 
-- Fix for LT
-    - Blade Lord (F) Exalt Magic
-    - Blade Lord (F) Sword
 - Elf Eirika by JaidynReiman
     - This was originally made in my Legacy assets.
     - This is designed for Amaya.
@@ -342,6 +339,18 @@ These autotiles were created by me. I created them from the original tilesets in
     - Original Tileset By: {N426}
     - Original Map Animations by: {N426}
     - Silvio from the LT Discord tried to get these working but was unable to figure it out. I went ahead and made them myself instead. Some of the tiles do not match exactly with the original sheet, I suspect this worked fine in FE Builder because the animation is directly chosen for each specific tile, but in LT they need to be replaced with the base tile in the tileset instead.
+
+#### World Map
+
+The World Map was designed by me. I originally had some rough ideas in my head for what I needed in specific locations.
+
+1. I generated a bunch of fantasy world maps using [Donjon Fantasy World Generator](http://donjon.bin.sh/fantasy/world/) and found the one that best fit the idea I had in my head.
+2. From there, I outlined the map's borders using a program I found online called AutoREALM, [available via SourceForge](https://sourceforge.net/projects/autorealm/).
+3. This was my final World Map for years until I discovered [Inkarnate](https://inkarnate.com/).
+4. Using Inkarnate I made the final version of my map, using the original map design to mask out the continents as close as possible to my original design (https://inkarnate.com/m/P7eyDW), however its not fully fleshed out in detail.
+5. Then I (converted it to a Parchment style)[https://inkarnate.com/m/Gzx2dK] to simplify the colors to make it easier to reduce colors and import into a romhack (which I abandoned).
+5. Finally, I used tools to crop out the northern continents and added cities and other notable landmarks. [This is the version of the map I intend on using in the game.](https://inkarnate.com/m/mNbJE8)
+
 
 
 ### Portraits
