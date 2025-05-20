@@ -194,6 +194,17 @@ I have only kept the ones with notable changes. I haven't yet adapted these for 
     - Mage Lord by TyTheBub
     - This is a super minor edit to add elf-style ears. I'll probably do a more advanced edit later.
 
+#### Bards, Dancers, Suppliers, Misc.
+
+- Dancers
+    - Larum, Ninian by IS.
+    - Tethys by CirclesEverywhere, IS.
+    - Muse / Gypsy by Alexplode
+    - Larum Long Hair by Momo
+    - Male Dancer by L95
+    - Cleaned up to be importable into LT by JaidynReiman
+    - Dance Anim Sheets by JaidynReiman
+
 #### Mounted - Dismounted, Monsters, Misc
 
 - Wolf Knight by JaidynReiman
