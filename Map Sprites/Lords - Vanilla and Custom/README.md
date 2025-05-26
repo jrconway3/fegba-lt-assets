@@ -40,29 +40,11 @@ I have only kept the ones with notable changes. I haven't yet adapted these for 
     - Archer with a hat. Based on a rough concept I did a while back.
 
 
-#### Lords - Vanilla and Custom
+### Elf Eirika by JaidynReiman
+- This was originally made in my Legacy assets and was edited directly off of OG Eirika's sprite.
+- This is designed for Amaya.
 
-- Elf Eirika by JaidynReiman
-    - This was originally made in my Legacy assets.
-    - This is designed for Amaya.
-- Mage Lord Elf by JaidynReiman
-    - Mage Lord by TyTheBub
-    - This is a super minor edit to add elf-style ears. I'll probably do a more advanced edit later.
 
-#### Bards, Dancers, Suppliers, Misc.
-
-- Dancers
-    - Larum, Ninian by IS.
-    - Tethys by CirclesEverywhere, IS.
-    - Muse / Gypsy by Alexplode
-    - Larum Long Hair by Momo
-    - Male Dancer by L95
-    - Cleaned up to be importable into LT by JaidynReiman
-    - Dance Anim Sheets by JaidynReiman
-
-#### Mounted - Dismounted, Monsters, Misc
-
-- Wolf Knight by JaidynReiman
-    - Spliced From Wolf and Nomad
-    - Wolf by VelvetKitsune
-    - Nomad by Leif
+### Mage Lord Elf by JaidynReiman
+- Mage Lord by TyTheBub
+- This is a super minor edit to add elf-style ears. I'll probably do a more advanced edit later.
