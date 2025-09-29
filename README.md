@@ -350,6 +350,12 @@ These autotiles were created by me. I created them from the original tilesets in
     - Original Tileset By: {N426}
     - Original Map Animations by: {N426}
     - Silvio from the LT Discord tried to get these working but was unable to figure it out. I went ahead and made them myself instead. Some of the tiles do not match exactly with the original sheet, I suspect this worked fine in FE Builder because the animation is directly chosen for each specific tile, but in LT they need to be replaced with the base tile in the tileset instead.
+- Village - Remake + Coconut Tree + Ship Extras
+    - Original Tileset by: {flasuban, N426, ZoramineFae, Venno}
+    - The ship tiles don't work right now. I'm going to re-evaluate these again in the future to figure out why they keep failing.
+- Final Stronghold
+    - Original Tileset by: {flasuban, N426, ZoramineFae}
+    - Autumn Goza(Ru)dolf also helped restructure the map animations from separate files into a proper sheet. I started from there to finish the full animations for each tile.
 
 #### World Map
 
